@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+@theme {
+  --color-walnut-ink: #403a34;
+  --color-linen-canvas: #f6f1eb;
+  --color-charcoal-note: #333333;
+  --color-slate-whisper: #555555;
+
+  --font-bwgradual: "Space Grotesk", "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-bwgradual);
+    background-color: #f6f1eb;
+    color: #403a34;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #f6f1eb;
+    color: #333333;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-bwgradual);
+    color: #403a34;
+  }
+}
+
+/* Signature typographic utilities matching the token scale */
+.type-xs-label {
+  font-family: var(--font-bwgradual);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.type-xs-label-regular {
+  font-family: var(--font-bwgradual);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.type-xs-meta {
+  font-family: var(--font-bwgradual);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0em;
+}
+
+.type-xs-meta-tracked {
+  font-family: var(--font-bwgradual);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.083em;
+  text-transform: uppercase;
+}
+
+.type-lg-lead {
+  font-family: var(--font-bwgradual);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0em;
+}
+
+.type-xl-title {
+  font-family: var(--font-bwgradual);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0em;
+}
+
+.type-4xl-display {
+  font-family: var(--font-bwgradual);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+.type-5xl-display {
+  font-family: var(--font-bwgradual);
+  font-size: clamp(36px, 4.5vw, 50px);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0em;
+}
+
+.type-5xl-2-display {
+  font-family: var(--font-bwgradual);
+  font-size: clamp(40px, 5.5vw, 60px);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.type-5xl-3-display {
+  font-family: var(--font-bwgradual);
+  font-size: clamp(54px, 9.5vw, 120px);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.004em;
+}
+
+.type-5xl-4-display {
+  font-family: var(--font-bwgradual);
+  font-size: clamp(64px, 13vw, 180px);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.056em;
+}
+
+.type-5xl-5-watermark {
+  font-family: var(--font-bwgradual);
+  font-size: clamp(84px, 18vw, 250px);
+  font-weight: 700;
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+}
+
+/* Custom hairline architectural borders */
+.hairline-border {
+  border: 1px solid #403a34;
+}
+
+.hairline-border-subtle {
+  border: 1px solid rgba(64, 58, 52, 0.22);
+}
+
+.hairline-b {
+  border-bottom: 1px solid rgba(64, 58, 52, 0.22);
+}
+
+.hairline-t {
+  border-top: 1px solid rgba(64, 58, 52, 0.22);
+}
+
+.hairline-r {
+  border-right: 1px solid rgba(64, 58, 52, 0.22);
+}
