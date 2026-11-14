@@ -15,8 +15,8 @@ export const Footer: React.FC = () => {
             </div>
             <p className="text-[13px] text-[#333333] leading-relaxed">
               South African construction, residential renovation, and industrial
-              property maintenance company based in Cosmo City Ext 4, Randburg,
-              Johannesburg.
+              property maintenance company based at Kya Sands Business Park,
+              12 Granite Road, Kya Sands, Johannesburg.
             </p>
             <div className="type-xs-label text-[#555555]">
               CONTACT PERSON: {COMPANY_INFO.contactPerson.toUpperCase()}
