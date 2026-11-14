@@ -68,7 +68,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onQuoteClick }) => {
                 FAG PROJECTS
               </span>
               <span className="type-xs-label-regular text-[#555555] mt-1">
-                COSMO CITY · JOHANNESBURG
+                KYA SANDS · JOHANNESBURG
               </span>
             </div>
           </a>

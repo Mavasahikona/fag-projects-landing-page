@@ -24,7 +24,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onRequestQuote }) => {
           <div className="flex items-center gap-2 text-[#403a34]">
             <MapPin className="w-3.5 h-3.5 text-[#403a34]" />
             <span className="type-xs-label">
-              COSMO CITY EXT 4 · RANDBURG · SANDTON · ROSEBANK · FOURWAYS · KEMPTON PARK
+              KYA SANDS · RANDBURG · SANDTON · ROSEBANK · FOURWAYS · KEMPTON PARK
             </span>
           </div>
           <div className="flex items-center gap-4">

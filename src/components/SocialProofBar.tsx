@@ -16,7 +16,7 @@ export const SocialProofBar: React.FC = () => {
       icon: Compass,
       eyebrow: 'GAUTENG SERVICE FOOTPRINT',
       metric: '6 Core Suburbs',
-      caption: 'Cosmo City Ext 4, Randburg, Sandton, Rosebank, Fourways & Kempton Park.',
+      caption: 'Kya Sands, Randburg, Sandton, Rosebank, Fourways & Kempton Park.',
       href: '#contact-quote',
     },
     {
